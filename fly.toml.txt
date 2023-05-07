@@ -1,0 +1,8 @@
+app = "my-app"
+
+[[services]]
+  internal_port = 80
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 80
